@@ -1,0 +1,49 @@
+tei-listPerson {
+  display: none;
+}
+tei-div {
+  display: block;
+  text-align: justify;
+  background-color: #F5F5DC;
+}
+tei-p {
+  display: block;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+tei-head {
+  display: block;
+  text-align: center;
+  font-family: serif;
+  font-weight: bolder;
+  font-size: 1.875em;
+  margin-bottom: 25px;
+}
+tei-dateline {
+  display: block;
+  text-align: right;
+}
+tei-p>tei-note {
+  display: inline;
+}
+tei-note>tei-sup {
+  position: relative;
+  vertical-align: baseline;
+  top: -0.4em;
+}
+tei-listAnnotation>tei-note {
+  display: list-item;
+  list-style-type: decimal;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 25px;
+}
+tei-persName {
+  font-style: italic;
+}
+tei-closer {
+  display: block;
+  text-align: right;
+  margin-bottom: 25px;
+}
